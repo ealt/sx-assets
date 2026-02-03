@@ -8,3 +8,10 @@ created-by = "skills/0.9.2"
   type = "skill"
   [assets.source-path]
     path = "./assets/docs-manager/1"
+
+[[assets]]
+  name = "virgil-walkthrough"
+  version = "1"
+  type = "skill"
+  [assets.source-path]
+    path = "./assets/virgil-walkthrough/1"
