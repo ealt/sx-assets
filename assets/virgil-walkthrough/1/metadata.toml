@@ -1,0 +1,10 @@
+[asset]
+  name = "virgil-walkthrough"
+  version = "1"
+  type = "skill"
+
+[skill]
+  prompt-file = "SKILL.md"
+
+[custom]
+  author = "eric"
