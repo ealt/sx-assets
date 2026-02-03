@@ -1,24 +1,10 @@
-# sx Assets Vault
+# Asset Vault
+<!-- Template version: 1 -->
 
-This repository serves as an sx vault for AI assets (skills, commands, MCPs).
+This vault contains assets (skills, agents, MCP servers, etc.) for use with sx.
 
-## Usage
-
-Configure sx to use this vault:
-
-```bash
-sx init --type git --repo-url git@github.com:ealt/sx-assets.git
-```
-
-Then browse and install assets:
+## Installation
 
 ```bash
-sx vault list
-sx add <asset-name> --yes --scope-global
-sx install
+curl -fsSL https://raw.githubusercontent.com/ealt/sx-assets/main/install.sh | bash
 ```
-
-## Asset Sources
-
-Assets are authored in [ealt/toolchain](https://github.com/ealt/toolchain) and
-published here via `sx add`.

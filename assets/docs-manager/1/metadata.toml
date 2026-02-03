@@ -1,0 +1,10 @@
+[asset]
+  name = "docs-manager"
+  version = "1"
+  type = "skill"
+
+[skill]
+  prompt-file = "SKILL.md"
+
+[custom]
+  author = "eric"
