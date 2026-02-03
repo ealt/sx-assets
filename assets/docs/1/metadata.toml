@@ -1,0 +1,10 @@
+[asset]
+  name = "docs"
+  version = "1"
+  type = "command"
+
+[command]
+  prompt-file = "docs.md"
+
+[custom]
+  author = "eric"
